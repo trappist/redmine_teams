@@ -1,0 +1,3 @@
+= Redmine Teams
+
+Adds teams to Redmine.  This is intended for use as a dependency for other Redmine plugins.  It adds a teams controller for creating and deleting teams, and a widget to the user admin screen for assigning users to teams.

@@ -1,0 +1,14 @@
+<fieldset><legend>Teams</legend>
+  <ul>
+    <% @teams.each do |team| %>
+    <li>
+      <%= team.name %> <%= link_to(image_tag('delete.png'), {:action => 'destroy', :id => team}) %>
+    </li>
+    <% end %>
+  </ul>
+</fieldset>
+<% form_for :team do |f| %>
+  <%= f.label :name, "New Team" %>
+  <%= f.text_field :name %>
+  <%= f.submit "Submit" %>
+<% end %>

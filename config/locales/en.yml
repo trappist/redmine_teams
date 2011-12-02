@@ -1,0 +1,4 @@
+# English strings go here for Rails i18n
+en:
+  field_teams: Teams
+  field_team_ids: Teams
