@@ -1,1 +1,1 @@
-<p><%= form.select(:team_ids, Team.all.map{|t|[t.name,t.id]}, {:include_blank => true}, {:multiple => true}) %></p>
+<p><%= form.select(:team_ids, Team.all.map{|t|[t.name,t.id]},{}, {:multiple => true}) %></p>
